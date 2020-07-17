@@ -1,0 +1,25 @@
+Obesity_study
+-
+id int pk
+year date
+stateabbr varchar(30)
+statename varchar(30)
+cityname varchar(30)
+population2010 varchar(30)
+latitude float
+longitude float
+
+cdc_data
+-
+id int pk
+stateid VARCHAR
+percentage_obese FLOAT
+gender VARCHAR
+
+
+census_data
+-
+id int pk
+state VARCHAR
+totalpopulation_census_2010 INTEGER
+population_est_2014 INTEGER
